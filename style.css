@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  background: linear-gradient(to right, #43cea2, #185a9d);
   margin: 0;
   padding: 0;
   display: flex;
@@ -40,15 +40,16 @@ input[type="text"] {
 
 button {
   padding: 10px 20px;
-  background-color: #2575fc;
+  background-color: #43cea2;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 button:hover {
-  background-color: #1a5ed9;
+  background-color: #2ebc93;
 }
 
 ul {
@@ -63,4 +64,10 @@ li {
   padding: 10px 15px;
   margin-bottom: 10px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #d2f8e5;
+  text-decoration: line-through;
 }
